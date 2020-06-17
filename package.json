@@ -1,0 +1,42 @@
+{
+  "name": "js-audio-merger",
+  "version": "1.0.0",
+  "description": "Merges multiple audio sources into one",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && tsc -p tsconfig.browser.json",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json",
+    "test": "jest --config jestconfig.json"
+  },
+  "files": [
+    "dist/**/*",
+    "dist.browser/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valterlorran/js-audio-merger.git"
+  },
+  "keywords": [
+    "audio",
+    "merger",
+    "merge",
+    "streams",
+    "stream"
+  ],
+  "author": "Valter Lorran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valterlorran/js-audio-merger/issues"
+  },
+  "homepage": "https://github.com/valterlorran/js-audio-merger#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.0",
+    "jest": "^26.0.1",
+    "prettier": "^2.0.5",
+    "ts-jest": "^26.1.0",
+    "tslint": "^6.1.2",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.9.5"
+  }
+}
